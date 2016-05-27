@@ -2,15 +2,16 @@
 ## Base System
 Ubunutu Minimal 16.04 (mini.iso)
 * `sudo apt install software-properties-common`
+* install Xorg `sudo apt install xorg`
 
 ## Desktop Manager
 Lightdm: `sudo apt install lightdm` (checked)
+lightdm-gtk-greeter `sudo apt install lightdm-gtk-greeter`
+lightdm-gtk-greeter-settings `sudo apt install lightdm-gtk-greeter-settings`
 
 ## Window Manager
 Openbox: `sudo apt install openbox` (checked)
-* install xorg `sudo apt install xorg`
-* install lightdm-gtk-greeter `sudo apt install lightdm-gtk-greeter`
-* install lightdm-gtk-greeter-settings `sudo apt install lightdm-gtk-greeter-settings`
+
 * install gksu `sudo apt install gksu`
 * edit autostart applications by create `~/.config/openbox/autostart.sh` and execute the program to start
 
