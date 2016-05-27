@@ -34,7 +34,7 @@ nitrogen: `sudo apt install nitrogen` (checked)
 autostart line: `nitrogen --restore &`
 
 ## Theming Manager
-
+LXAppearance: `sudo apt install lxappearance`
 ## File Manager
 Nemo: `sudo apt install nemo` (checked)
 
