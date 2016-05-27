@@ -1,17 +1,14 @@
 # myde
 ## Base System
 Ubunutu Minimal 16.04 (mini.iso)
-* `sudo apt install software-properties-common`
+* `sudo apt install software-properties-common build-essential`
 * install Xorg `sudo apt install xorg`
 
 ## Desktop Manager
-Lightdm: `sudo apt install lightdm` (checked)
-lightdm-gtk-greeter `sudo apt install lightdm-gtk-greeter`
-lightdm-gtk-greeter-settings `sudo apt install lightdm-gtk-greeter-settings`
+Lightdm: `sudo apt install lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings`
 
 ## Window Manager
 Openbox: `sudo apt install openbox` (checked)
-
 * install gksu `sudo apt install gksu`
 * edit autostart applications by create `~/.config/openbox/autostart.sh` and execute the program to start
 
@@ -19,7 +16,7 @@ Openbox: `sudo apt install openbox` (checked)
 Skippy-XD: `sudo add-apt-repository ppa:landronimirc/skippy-xd-daily && sudo apt update && sudo apt install skippy-xd`
 
 ## Application Launcher
-Slingscold:
+obmenu: `sudo apt install menu obmenu`
 Synapse: `sudo apt install synapse` (checked)
 autostart line: `synapse -s &` 
 
