@@ -37,7 +37,9 @@ autostart line: `nitrogen --restore &`
 LXAppearance: `sudo apt install lxappearance`
 ## File Manager
 Nemo: `sudo apt install nemo` (checked)
+Thunar: `sudo apt install thunar`
 
 ## zsh and prezto
 
 ## terminal emulator
+Terminator: `sudo apt install terminator`
