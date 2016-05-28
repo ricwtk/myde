@@ -33,6 +33,10 @@ xcompmgr: `sudo apt install xcompmgr` (checked)
 nitrogen: `sudo apt install nitrogen` (checked)
 autostart line: `nitrogen --restore &`
 
+## Monitor configuration
+`xrandr --output HDMI1 --mode 1920x1080 --right-of VGA1`
+`xrandr --output HDMI1 --primary`
+
 ## Theming Manager
 LXAppearance: `sudo apt install lxappearance`
 ## File Manager
